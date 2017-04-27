@@ -1,0 +1,125 @@
+
+
+h1 
+{
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+header 
+{
+	background-image: url(../images/computerguts.jpg);
+	color: #c7d1db;
+	height: 10em;
+	margin-bottom: 1%;
+}
+
+nav 
+{	
+	float:left;
+}
+h2 	{	font-size: 120%;
+		text-align: center;}
+nav ul {list-style-type: none;}
+nav a {text-decoration: none;}
+nav a:hover {font-size: 130%;}
+nav li {margin-bottom: 1em;}
+footer	{text-align: center;
+		margin-top: 5em;
+		clear: both;}
+footer ul {list-style-type: none;}
+footer a {text-decoration: none;}
+footer a:hover {font-size: 150%;}
+footer li {display: inline;
+			margin-right: 1em;}
+#wrapper { width: 85%;
+margin-left: auto;
+margin-right: auto;}			
+#rightcol {margin-left: 10em;
+			padding-top: 10px;}
+body {background-color: #c7d1db}
+
+
+
+.homeparagraphs {padding-left: 3em;}
+
+.lefttopics 
+	{	float: left;
+		width: 50%;
+		height: 40%;
+		margin-bottom: 2%;
+		border: 1px solid;
+	}
+	.righttopics 
+	{	margin-left: 51%;
+		width: 50%;
+		height: 40%;
+		margin-bottom: 2%;
+		border: 1px solid;
+	}
+	
+
+				
+.aboutparagraph {margin-bottom: 5em;}
+.profilepic {	float: left;}
+
+
+#contactfl	{padding-top: 0%;}
+
+
+
+.servicesdt {font-size: 120%;
+			font-weight: bold;}
+.servicesdd {}
+.serviceprice {font-size: 65%;}
+
+
+#tipsdl {}
+.tipsdt {font-size: 120%;
+		font-weight: bold;}
+.tipsdd {}
+
+
+
+@media only all and (max-width: 980px)
+{
+	.lefttopics 
+	{	float: none;
+		width: 100%;
+		height: auto;
+		margin-bottom: 2%;
+		border: 1px solid;
+	}
+	.righttopics 
+	{	margin-left: 0%;
+		width: 100%;
+		height: auto;
+		margin-bottom: 2%;
+		border: 1px solid;
+	}
+	
+	nav li
+	{
+		font-size: 125%;
+		padding-bottom: 20px;
+	}
+	
+	#rightcol 
+	{
+		margin-left: 11em;
+		padding-top: 1%;
+	}
+	footer li 
+	{
+		font-size: 100%;
+	}
+}
+@media only all and (max-width: 500px)
+{
+	h1
+	{
+		font-size: 200%;
+	}
+}
